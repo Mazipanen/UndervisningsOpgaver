@@ -19,7 +19,7 @@ public class ScannerOpg {
     public static void main(String[] args) {
         String input = "1,2,red,blue";
         Scanner s = new Scanner(input).useDelimiter(",");
-        File myFile = new File("c:\\Users\\L530\\Documents\\twocolor.txt");
+        File myFile = new File("c:\\Users\\L530\\Documents\\twocolors.csv");
 
         //print to .txt
         PrintWriter pw;
@@ -39,6 +39,7 @@ public class ScannerOpg {
                 System.out.println(reader.next());
             }
         } catch (FileNotFoundException e) {
+            System.out.println("Nope dosent exist");
         }
     }
 }
