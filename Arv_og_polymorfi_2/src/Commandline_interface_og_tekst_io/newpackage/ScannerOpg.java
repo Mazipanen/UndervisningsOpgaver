@@ -19,7 +19,7 @@ public class ScannerOpg {
     public static void main(String[] args) {
         String input = "1,2,red,blue";
         Scanner s = new Scanner(input).useDelimiter(",");
-        File myFile = new File("c:\\Users\\L530\\Documents\\twocolors.csv");
+        File myFile = new File("src/Commandline_interface_og_tekst_io/newpackage/twocolors.csv");
 
         //print to .txt
         PrintWriter pw;
